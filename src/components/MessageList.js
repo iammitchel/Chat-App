@@ -15,7 +15,7 @@ export default MessageList
 export const Container = styled.div`
  border: 1px solid black;
  width: 75%;
- height: 600px;
+ height: 800px;
  margin-left: 1%;
  
 `

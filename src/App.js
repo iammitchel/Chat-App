@@ -11,9 +11,13 @@ function App() {
         <RoomList />
         <MessageList />
       </div>
-      
-      <NewRoomForm />
-      <SendMessageForm />
+      <div style={{
+        display: "flex",
+        paddingTop: 10,
+      }}>
+        <NewRoomForm />
+        <SendMessageForm />
+      </div>
     </div>
   );
 }

@@ -1,11 +1,19 @@
 import React from 'react'
+import styled from 'styled-components';
 
 const SendMessageForm = () => {
   return (
-    <div>
+    <Container>
       <h1>SendMessageForm</h1>
-    </div>
+    </Container>
   );
 }
 
-export default SendMessageForm
+export default SendMessageForm;
+
+
+export const Container = styled.div`
+  border: 1px solid black;
+  margin-left: 20px;
+  width: 75%;
+`
