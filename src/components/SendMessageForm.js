@@ -3,9 +3,14 @@ import styled from 'styled-components';
 
 const SendMessageForm = () => {
   return (
-    <Container>
-      <h1>SendMessageForm</h1>
-    </Container>
+    <div>
+      <form>
+        <label>
+          <textarea/>
+        </label>
+        {/* <input type="submit" value="Submit" /> */}
+      </form>
+    </div>
   );
 }
 
